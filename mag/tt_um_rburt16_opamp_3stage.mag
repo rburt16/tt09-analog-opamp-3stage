@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1730218326
+timestamp 1730410385
 << metal1 >>
 rect 100 19570 7480 19600
 rect 100 19430 130 19570
@@ -207,9 +207,9 @@ rect 11317 0 11407 90
 rect 13249 0 13339 100
 rect 15181 0 15271 100
 use op_amp_3stage  op_amp_3stage_0
-timestamp 1730217891
+timestamp 1730410385
 transform 1 0 22050 0 1 4195
-box -20850 -3095 -7534 14789
+box -20850 -3240 -7534 14825
 << labels >>
 flabel metal4 s 14383 22476 14413 22576 0 FreeSans 240 90 0 0 clk
 port 0 nsew signal input
