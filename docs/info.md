@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+A test chip for a 3stage PMOS OpAmp.
 
 ## How to test
 
-Explain how to use your project
+Pinout: out -> ua[0], in- -> ua[1], in+ -> ua[2]
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Typical analog bench setup.
