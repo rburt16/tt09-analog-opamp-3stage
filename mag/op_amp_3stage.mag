@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1730563144
+timestamp 1730569394
 << nwell >>
 rect -32020 27340 -32018 27420
 rect -31590 27120 -31588 27198
@@ -1419,7 +1419,7 @@ rect -35210 140 -28610 160
 rect -28620 100 -28610 140
 rect -28550 100 -28540 160
 rect -28620 90 -28540 100
-rect -28510 -330 -28480 3770
+rect -28510 -170 -28480 3770
 rect -28450 3350 -28420 7970
 rect -28340 3460 -28310 8080
 rect -28280 8470 -21790 8500
@@ -1490,14 +1490,7 @@ rect -28450 3340 -28370 3350
 rect -28450 3280 -28440 3340
 rect -28380 3280 -28370 3340
 rect -28450 3270 -28370 3280
-rect -34970 -360 -28480 -330
-rect -28620 -400 -28540 -390
-rect -28620 -430 -28610 -400
-rect -29560 -460 -28610 -430
-rect -28550 -460 -28540 -400
-rect -28620 -470 -28540 -460
-rect -28510 -580 -28480 -360
-rect -28280 -330 -28250 3770
+rect -28280 -170 -28250 3770
 rect -21650 3520 -21620 3870
 rect -21700 3510 -21620 3520
 rect -21700 3450 -21690 3510
@@ -1553,8 +1546,25 @@ rect -28220 100 -28210 160
 rect -28150 140 -21930 160
 rect -28150 100 -28140 140
 rect -28220 90 -28140 100
+rect -28580 -190 -28470 -170
+rect -28580 -260 -28560 -190
+rect -28490 -260 -28470 -190
+rect -28580 -280 -28470 -260
+rect -28290 -190 -28180 -170
+rect -28290 -260 -28270 -190
+rect -28200 -260 -28180 -190
+rect -28290 -280 -28180 -260
+rect -28510 -330 -28480 -280
+rect -34970 -360 -28480 -330
+rect -28620 -400 -28540 -390
+rect -28620 -430 -28610 -400
+rect -29560 -460 -28610 -430
+rect -28550 -460 -28540 -400
+rect -28620 -470 -28540 -460
+rect -28510 -580 -28480 -360
+rect -28280 -330 -28250 -280
 rect -28280 -360 -21790 -330
-rect -28280 -550 -28250 -360
+rect -28280 -580 -28250 -360
 rect -28220 -400 -28140 -390
 rect -28220 -460 -28210 -400
 rect -28150 -440 -28140 -400
@@ -1562,15 +1572,6 @@ rect -21650 -430 -21620 210
 rect -28150 -460 -27200 -440
 rect -22630 -460 -21620 -430
 rect -28220 -470 -27200 -460
-rect -28310 -580 -28250 -550
-rect -28590 -600 -28480 -580
-rect -28590 -670 -28570 -600
-rect -28500 -670 -28480 -600
-rect -28590 -690 -28480 -670
-rect -28390 -600 -28280 -580
-rect -28390 -670 -28370 -600
-rect -28300 -670 -28280 -600
-rect -28390 -690 -28280 -670
 rect -21580 -760 -21550 3380
 rect -15000 -730 -14890 -710
 rect -15000 -760 -14980 -730
@@ -1751,14 +1752,14 @@ rect -28270 4300 -28210 4360
 rect -28380 3390 -28320 3450
 rect -28270 3780 -28210 3840
 rect -28440 3280 -28380 3340
-rect -28610 -460 -28550 -400
 rect -21690 3450 -21630 3510
 rect -28200 3280 -28140 3340
 rect -21690 3280 -21630 3340
 rect -28210 100 -28150 160
+rect -28560 -260 -28490 -190
+rect -28270 -260 -28200 -190
+rect -28610 -460 -28550 -400
 rect -28210 -460 -28150 -400
-rect -28570 -670 -28500 -600
-rect -28370 -670 -28300 -600
 rect -14980 -800 -14910 -730
 << metal2 >>
 rect -30150 29550 -30070 29560
@@ -2562,6 +2563,14 @@ rect -28620 90 -28540 100
 rect -28220 100 -28210 140
 rect -28150 100 -28140 160
 rect -28220 90 -28140 100
+rect -28580 -190 -28470 -170
+rect -28580 -260 -28560 -190
+rect -28490 -260 -28470 -190
+rect -28580 -280 -28470 -260
+rect -28290 -190 -28180 -170
+rect -28290 -260 -28270 -190
+rect -28200 -260 -28180 -190
+rect -28290 -280 -28180 -260
 rect -28620 -400 -28540 -390
 rect -28620 -460 -28610 -400
 rect -28550 -440 -28540 -400
@@ -2570,14 +2579,6 @@ rect -28220 -440 -28210 -400
 rect -28550 -460 -28210 -440
 rect -28150 -460 -28140 -400
 rect -28620 -470 -28140 -460
-rect -28590 -600 -28480 -580
-rect -28590 -670 -28570 -600
-rect -28500 -670 -28480 -600
-rect -28590 -690 -28480 -670
-rect -28390 -600 -28280 -580
-rect -28390 -670 -28370 -600
-rect -28300 -670 -28280 -600
-rect -28390 -690 -28280 -670
 rect -15000 -730 -14890 -710
 rect -15000 -800 -14980 -730
 rect -14910 -800 -14890 -730
@@ -2588,8 +2589,8 @@ rect -21330 24780 -21260 24850
 rect -21000 24750 -20930 24820
 rect -35200 10630 -35130 10700
 rect -35130 3960 -35060 4030
-rect -28570 -670 -28500 -600
-rect -28370 -670 -28300 -600
+rect -28560 -260 -28490 -190
+rect -28270 -260 -28200 -190
 rect -14980 -800 -14910 -730
 << metal3 >>
 rect -21350 24850 -21240 24870
@@ -2612,14 +2613,14 @@ rect -35150 4030 -35040 4050
 rect -35150 3960 -35130 4030
 rect -35060 3960 -35040 4030
 rect -35150 3940 -35040 3960
-rect -28590 -600 -28480 -580
-rect -28590 -670 -28570 -600
-rect -28500 -670 -28480 -600
-rect -28590 -690 -28480 -670
-rect -28390 -600 -28280 -580
-rect -28390 -670 -28370 -600
-rect -28300 -670 -28280 -600
-rect -28390 -690 -28280 -670
+rect -28580 -190 -28470 -170
+rect -28580 -260 -28560 -190
+rect -28490 -260 -28470 -190
+rect -28580 -280 -28470 -260
+rect -28290 -190 -28180 -170
+rect -28290 -260 -28270 -190
+rect -28200 -260 -28180 -190
+rect -28290 -280 -28180 -260
 rect -15000 -730 -14890 -710
 rect -15000 -800 -14980 -730
 rect -14910 -800 -14890 -730
@@ -2630,8 +2631,8 @@ rect -26660 24680 -26590 24750
 rect -21000 24750 -20930 24820
 rect -35200 10630 -35130 10700
 rect -35130 3960 -35060 4030
-rect -28570 -670 -28500 -600
-rect -28370 -670 -28300 -600
+rect -28560 -260 -28490 -190
+rect -28270 -260 -28200 -190
 rect -14980 -800 -14910 -730
 << metal4 >>
 rect -26600 27250 -26540 27650
@@ -2675,6 +2676,14 @@ rect -35150 4000 -35130 4030
 rect -35330 3960 -35130 4000
 rect -35060 3960 -35040 4030
 rect -35330 3940 -35040 3960
+rect -28580 -190 -28470 -170
+rect -28580 -260 -28560 -190
+rect -28490 -260 -28470 -190
+rect -28580 -280 -28470 -260
+rect -28290 -190 -28180 -170
+rect -28290 -260 -28270 -190
+rect -28200 -260 -28180 -190
+rect -28290 -280 -28180 -260
 rect -21550 -380 -21360 -360
 rect -22150 -420 -21360 -380
 rect -41600 -970 -41540 -420
@@ -2683,14 +2692,6 @@ rect -35400 -500 -35310 -470
 rect -35400 -560 -28710 -500
 rect -35400 -910 -35320 -560
 rect -28910 -620 -28710 -560
-rect -28590 -600 -28480 -580
-rect -28590 -670 -28570 -600
-rect -28500 -670 -28480 -600
-rect -28590 -690 -28480 -670
-rect -28390 -600 -28280 -580
-rect -28390 -670 -28370 -600
-rect -28300 -670 -28280 -600
-rect -28390 -690 -28280 -670
 rect -22150 -680 -21950 -440
 rect -21760 -660 -21520 -500
 rect -22100 -720 -21950 -680
@@ -2710,239 +2711,239 @@ rect -21360 -6130 -21300 -5990
 rect -22010 -6190 -21300 -6130
 rect -35750 -6480 -34930 -6420
 use bias_generator  bias_generator_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -44836 0 1 8370
 box 3156 2360 10700 6640
 use sky130_fd_pr__cap_mim_m3_1_5HBWYY  sky130_fd_pr__cap_mim_m3_1_5HBWYY_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -31884 0 1 -3330
 box -3186 -2740 3186 2740
 use sky130_fd_pr__cap_mim_m3_1_5HBWYY  sky130_fd_pr__cap_mim_m3_1_5HBWYY_1
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -38504 0 1 -3630
 box -3186 -2740 3186 2740
 use sky130_fd_pr__cap_mim_m3_1_5HBWYY  sky130_fd_pr__cap_mim_m3_1_5HBWYY_2
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -38504 0 1 2090
 box -3186 -2740 3186 2740
 use sky130_fd_pr__cap_mim_m3_1_5HBWYY  sky130_fd_pr__cap_mim_m3_1_5HBWYY_3
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -18254 0 1 2090
 box -3186 -2740 3186 2740
 use sky130_fd_pr__cap_mim_m3_1_5HBWYY  sky130_fd_pr__cap_mim_m3_1_5HBWYY_4
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -24900 0 1 -3334
 box -3186 -2740 3186 2740
 use sky130_fd_pr__cap_mim_m3_1_5HBWYY  sky130_fd_pr__cap_mim_m3_1_5HBWYY_5
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -18254 0 1 -3630
 box -3186 -2740 3186 2740
 use sky130_fd_pr__cap_mim_m3_1_5HBWYY  sky130_fd_pr__cap_mim_m3_1_5HBWYY_6
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -18254 0 1 7810
 box -3186 -2740 3186 2740
 use sky130_fd_pr__nfet_01v8_lvt_C84B7J  sky130_fd_pr__nfet_01v8_lvt_C84B7J_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -27954 0 1 21239
 box -296 -379 296 379
 use sky130_fd_pr__nfet_01v8_lvt_FWQUH5  sky130_fd_pr__nfet_01v8_lvt_FWQUH5_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -36534 0 1 18340
 box -596 -1010 596 1010
 use sky130_fd_pr__nfet_01v8_lvt_N28DAC  sky130_fd_pr__nfet_01v8_lvt_N28DAC_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -32884 0 1 9210
 box -596 -510 596 510
 use sky130_fd_pr__nfet_01v8_lvt_Q53FMB  sky130_fd_pr__nfet_01v8_lvt_Q53FMB_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -31109 0 1 24300
 box -231 -460 231 460
 use sky130_fd_pr__nfet_01v8_lvt_QW8YAA  sky130_fd_pr__nfet_01v8_lvt_QW8YAA_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -30335 0 1 15790
 box -1825 -2210 1825 2210
 use sky130_fd_pr__nfet_01v8_lvt_QW8YAA  sky130_fd_pr__nfet_01v8_lvt_QW8YAA_1
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -30335 0 1 11110
 box -1825 -2210 1825 2210
 use sky130_fd_pr__nfet_01v8_lvt_QW8YAA  sky130_fd_pr__nfet_01v8_lvt_QW8YAA_2
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -22625 0 1 12920
 box -1825 -2210 1825 2210
 use sky130_fd_pr__nfet_01v8_lvt_SHAVFW  sky130_fd_pr__nfet_01v8_lvt_SHAVFW_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -28335 0 1 23949
 box -1255 -819 1255 819
 use sky130_fd_pr__nfet_01v8_lvt_W9NHZX  sky130_fd_pr__nfet_01v8_lvt_W9NHZX_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -37459 0 1 17790
 box -231 -460 231 460
 use sky130_fd_pr__nfet_01v8_lvt_W9NHZX  sky130_fd_pr__nfet_01v8_lvt_W9NHZX_1
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -37459 0 1 15620
 box -231 -460 231 460
 use sky130_fd_pr__nfet_01v8_lvt_WA2NKZ  sky130_fd_pr__nfet_01v8_lvt_WA2NKZ_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -34414 0 1 19201
 box -596 -4191 596 4191
 use sky130_fd_pr__pfet_01v8_JHT74A  sky130_fd_pr__pfet_01v8_JHT74A_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -27885 0 1 19459
 box -365 -1219 365 1219
 use sky130_fd_pr__pfet_01v8_lvt_545GKL  sky130_fd_pr__pfet_01v8_lvt_545GKL_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -31845 0 1 6419
 box -3335 -2219 3335 2219
 use sky130_fd_pr__pfet_01v8_lvt_545GKL  sky130_fd_pr__pfet_01v8_lvt_545GKL_1
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -24915 0 1 6419
 box -3335 -2219 3335 2219
 use sky130_fd_pr__pfet_01v8_lvt_545GKL  sky130_fd_pr__pfet_01v8_lvt_545GKL_2
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -31845 0 1 1719
 box -3335 -2219 3335 2219
 use sky130_fd_pr__pfet_01v8_lvt_MF6SRL  sky130_fd_pr__pfet_01v8_lvt_MF6SRL_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -38009 0 1 22343
 box -231 -4573 231 4573
 use sky130_fd_pr__pfet_01v8_lvt_MXC9RL  sky130_fd_pr__pfet_01v8_lvt_MXC9RL_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -33829 0 1 25927
 box -231 -2337 231 2337
 use sky130_fd_pr__pfet_01v8_M5XJZ4  sky130_fd_pr__pfet_01v8_M5XJZ4_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -41146 0 1 28359
 box -554 -1219 554 1219
 use sky130_fd_pr__pfet_01v8_M7ZEKL  sky130_fd_pr__pfet_01v8_M7ZEKL_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -22779 0 1 16449
 box -231 -1219 231 1219
 use sky130_fd_pr__pfet_01v8_MD8735  sky130_fd_pr__pfet_01v8_MD8735_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -34876 0 1 25927
 box -554 -2337 554 2337
 use sky130_fd_pr__pfet_01v8_MV5GT4  sky130_fd_pr__pfet_01v8_MV5GT4_0
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -39056 0 1 22343
 box -554 -4573 554 4573
 use sky130_fd_pr__cap_mim_m3_1_A4BC7Z  XC1
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -23794 0 1 26290
 box -2886 -1040 2886 1040
 use sky130_fd_pr__cap_mim_m3_1_A4BC7Z  XC2
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -23794 0 1 28610
 box -2886 -1040 2886 1040
 use sky130_fd_pr__cap_mim_m3_1_5HBWYY  XC3
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -38494 0 1 7810
 box -3186 -2740 3186 2740
 use sky130_fd_pr__pfet_01v8_lvt_QQJVLQ  XM2
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -28339 0 1 27217
 box -871 -2337 871 2337
 use sky130_fd_pr__nfet_01v8_lvt_Q53FMB  XM4
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -30379 0 1 24310
 box -231 -460 231 460
 use sky130_fd_pr__nfet_01v8_lvt_Q53FMB  XM5
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -31829 0 1 24300
 box -231 -460 231 460
 use sky130_fd_pr__pfet_01v8_lvt_PD3USF  XM6
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -30379 0 1 28339
 box -231 -1219 231 1219
 use sky130_fd_pr__pfet_01v8_lvt_SLP2FE  XM7
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -31099 0 1 28339
 box -231 -1219 231 1219
 use sky130_fd_pr__pfet_01v8_lvt_SLP2FE  XM8
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -31819 0 1 28339
 box -231 -1219 231 1219
 use sky130_fd_pr__nfet_01v8_lvt_C84B7J  XM10
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -28804 0 1 21239
 box -296 -379 296 379
 use sky130_fd_pr__pfet_01v8_JHT74A  XM11
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -28875 0 1 19459
 box -365 -1219 365 1219
 use sky130_fd_pr__nfet_01v8_lvt_QW8YAA  XM13
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -26425 0 1 11110
 box -1825 -2210 1825 2210
 use sky130_fd_pr__nfet_01v8_lvt_QW8YAA  XM14
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -26425 0 1 15790
 box -1825 -2210 1825 2210
 use sky130_fd_pr__pfet_01v8_lvt_545GKL  XM16
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -24915 0 1 1719
 box -3335 -2219 3335 2219
 use sky130_fd_pr__pfet_01v8_M7ZEKL  XM17
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -24219 0 1 16449
 box -231 -1219 231 1219
 use sky130_fd_pr__pfet_01v8_M7ZEKL  XM18
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -23499 0 1 16449
 box -231 -1219 231 1219
 use sky130_fd_pr__nfet_01v8_lvt_N28DAC  XM21
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -34164 0 1 9210
 box -596 -510 596 510
 use sky130_fd_pr__nfet_01v8_lvt_WA2NKZ  XM24
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -32884 0 1 14441
 box -596 -4191 596 4191
 use sky130_fd_pr__pfet_01v8_M5XJZ4  XM25
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -39056 0 1 16289
 box -554 -1219 554 1219
 use sky130_fd_pr__pfet_01v8_M5XJZ4  XM26
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -41146 0 1 16259
 box -554 -1219 554 1219
 use sky130_fd_pr__pfet_01v8_lvt_M7ZRRL  XM27
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -38009 0 1 16289
 box -231 -1219 231 1219
 use sky130_fd_pr__pfet_01v8_lvt_M7ZRRL  XM28
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -40099 0 1 16259
 box -231 -1219 231 1219
 use sky130_fd_pr__nfet_01v8_lvt_FWQUH5  XM31
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -36533 0 1 16171
 box -596 -1010 596 1010
 use sky130_fd_pr__nfet_01v8_lvt_PP2UM9  XM34
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -36534 0 1 21419
 box -596 -1919 596 1919
 use sky130_fd_pr__pfet_01v8_lvt_M7ZRRL  XM35
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -40099 0 1 28359
 box -231 -1219 231 1219
 use sky130_fd_pr__pfet_01v8_MD8735  XM36
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -36966 0 1 25927
 box -554 -2337 554 2337
 use sky130_fd_pr__pfet_01v8_lvt_MXC9RL  XM37
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -35919 0 1 25927
 box -231 -2337 231 2337
 use sky130_fd_pr__pfet_01v8_MV5GT4  XM40
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -41146 0 1 22313
 box -554 -4573 554 4573
 use sky130_fd_pr__pfet_01v8_lvt_MF6SRL  XM41
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -40099 0 1 22313
 box -231 -4573 231 4573
 use sky130_fd_pr__pfet_01v8_F4HV3A  XM44
-timestamp 1730563144
+timestamp 1730569394
 transform 1 0 -22059 0 1 15699
 box -231 -469 231 469
 << end >>
